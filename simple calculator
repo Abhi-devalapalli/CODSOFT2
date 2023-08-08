@@ -1,0 +1,24 @@
+# include <iostream>
+using namespace std;
+int main() {
+char operation;
+  float a, b;
+cout << "Enter two operands: ";
+  cin >> a >> b;
+  cout << "Enter operator: +, -, *, /: ";
+  cin >> operation;
+switch(operation) {
+ case '+':
+      cout << a << " + " << b << " = " << a + b;
+      break;
+ case '-':
+      cout << a << " - " << b << " = " << a - b;
+      break;
+ case '*':
+      cout << a << " * " << b << " = " << a * b;
+      break;
+ case '/':
+      cout << a << " / " << b << " = " << a / b;
+      break; }
+ return 0;
+}
